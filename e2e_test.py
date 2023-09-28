@@ -8,7 +8,6 @@ def e2e_test(base_url):
     # Visit the main page of your application
     browser.get(base_url)
 
-    # Here you can add specific actions, like clicking buttons, filling out forms, etc.
 
     # Close the browser at the end of the test
     browser.quit()
@@ -17,5 +16,5 @@ def e2e_test(base_url):
 
 # Execute the function
 if __name__ == "__main__":
-    BASE_URL = "YOUR_APPLICATION_URL"  # Replace this with your application's URL
+    BASE_URL = "https://devops-gcp-ahi6kdipra-uc.a.run.app"  
     e2e_test(BASE_URL)
