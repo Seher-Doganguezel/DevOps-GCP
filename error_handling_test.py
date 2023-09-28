@@ -12,5 +12,5 @@ def error_handling_test(base_url):
 
 # Execute the function
 if __name__ == "__main__":
-    BASE_URL = "YOUR_APPLICATION_URL"  # Replace this with your application's URL
+    BASE_URL = "https://devops-gcp-ahi6kdipra-uc.a.run.app"  # Replace URL
     error_handling_test(BASE_URL)
