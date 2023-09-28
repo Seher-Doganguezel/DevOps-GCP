@@ -10,4 +10,4 @@ class WebsiteUser(HttpUser):
 
     @task
     def another_endpoint(self):
-        self.client.get("/another-endpoint")  # Replace this with a valid endpoint of your application
+        self.client.get("/another-endpoint")  # Endpoint (Single page application, wont work!)
